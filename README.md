@@ -144,11 +144,3 @@ This forecast agent is designed to integrate with Fegmo's agentic PIM and DAM pl
 2. Scheduling seasonal assets for trending products
 3. Alerting the Readiness Agent about demand changes
 4. Providing insights for inventory and marketing decisions
-
-## License
-
-[License information]
-
-## Contact
-
-[Contact information]
