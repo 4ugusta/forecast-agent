@@ -1,0 +1,227 @@
+Processing sample data...
+{
+    "forecasts": [
+        {
+            "product_id": 101,
+            "product_name": "Herbal Shampoo",
+            "category": "Haircare",
+            "forecast_value": 182.26,
+            "confidence_score": 0.86,
+            "trend_tag": "stable",
+            "risk_indicator": "stable demand",
+            "narrative": "Herbal Shampoo shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 101,
+            "product_name": "Herbal Shampoo",
+            "category": "Haircare",
+            "forecast_value": 170.62,
+            "confidence_score": 0.78,
+            "trend_tag": "stable",
+            "risk_indicator": "unknown",
+            "narrative": "Herbal Shampoo forecasted sales are in line with recent performance. No significant changes to inventory management needed.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 102,
+            "product_name": "Bamboo Toothbrush",
+            "category": "Oral Care",
+            "forecast_value": 44.0,
+            "confidence_score": 0.76,
+            "trend_tag": "declining",
+            "risk_indicator": "possible excess inventory",
+            "narrative": "Bamboo Toothbrush is expected to underperform next month. Consider promotions to reduce inventory or adjust purchasing plans.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 102,
+            "product_name": "Bamboo Toothbrush",
+            "category": "Oral Care",
+            "forecast_value": 44.0,
+            "confidence_score": 0.66,
+            "trend_tag": "flat",
+            "risk_indicator": "unknown",
+            "narrative": "Bamboo Toothbrush forecasted sales are in line with recent performance. No significant changes to inventory management needed.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 103,
+            "product_name": "Organic Face Wash",
+            "category": "Skincare",
+            "forecast_value": 122.18,
+            "confidence_score": 0.95,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Organic Face Wash shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 103,
+            "product_name": "Organic Face Wash",
+            "category": "Skincare",
+            "forecast_value": 118.09,
+            "confidence_score": 0.94,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Organic Face Wash shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 104,
+            "product_name": "Eco-friendly Soap",
+            "category": "Bath",
+            "forecast_value": 229.17,
+            "confidence_score": 0.85,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Eco-friendly Soap shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 104,
+            "product_name": "Eco-friendly Soap",
+            "category": "Bath",
+            "forecast_value": 220.09,
+            "confidence_score": 0.84,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Eco-friendly Soap shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 105,
+            "product_name": "Natural Deodorant",
+            "category": "Personal Care",
+            "forecast_value": 76.94,
+            "confidence_score": 0.97,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Natural Deodorant shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 105,
+            "product_name": "Natural Deodorant",
+            "category": "Personal Care",
+            "forecast_value": 75.35,
+            "confidence_score": 0.95,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Natural Deodorant shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 106,
+            "product_name": "Vegan Lip Balm",
+            "category": "Cosmetics",
+            "forecast_value": 33.71,
+            "confidence_score": 0.56,
+            "trend_tag": "stable",
+            "risk_indicator": "unknown",
+            "narrative": "Vegan Lip Balm forecasted sales are in line with recent performance. No significant changes to inventory management needed.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 106,
+            "product_name": "Vegan Lip Balm",
+            "category": "Cosmetics",
+            "forecast_value": 34.21,
+            "confidence_score": 0.52,
+            "trend_tag": "flat",
+            "risk_indicator": "unknown",
+            "narrative": "Vegan Lip Balm forecasted sales are in line with recent performance. No significant changes to inventory management needed.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 107,
+            "product_name": "Recycled Toilet Paper",
+            "category": "Household",
+            "forecast_value": 173.66,
+            "confidence_score": 0.99,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Recycled Toilet Paper shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 107,
+            "product_name": "Recycled Toilet Paper",
+            "category": "Household",
+            "forecast_value": 171.64,
+            "confidence_score": 0.97,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Recycled Toilet Paper shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 108,
+            "product_name": "Plant-based Detergent",
+            "category": "Cleaning",
+            "forecast_value": 115.84,
+            "confidence_score": 0.92,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Plant-based Detergent shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 108,
+            "product_name": "Plant-based Detergent",
+            "category": "Cleaning",
+            "forecast_value": 111.39,
+            "confidence_score": 0.9,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Plant-based Detergent shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 109,
+            "product_name": "Biodegradable Wipes",
+            "category": "Baby Care",
+            "forecast_value": 97.21,
+            "confidence_score": 0.92,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Biodegradable Wipes shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 109,
+            "product_name": "Biodegradable Wipes",
+            "category": "Baby Care",
+            "forecast_value": 93.71,
+            "confidence_score": 0.91,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Biodegradable Wipes shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 2
+        },
+        {
+            "product_id": 110,
+            "product_name": "Sustainable Sunscreen",
+            "category": "Sun Care",
+            "forecast_value": 154.61,
+            "confidence_score": 0.87,
+            "trend_tag": "flat",
+            "risk_indicator": "stable demand",
+            "narrative": "Sustainable Sunscreen shows steady, predictable demand. Maintain current inventory levels and standard reordering processes.",
+            "forecast_months": 1
+        },
+        {
+            "product_id": 110,
+            "product_name": "Sustainable Sunscreen",
+            "category": "Sun Care",
+            "forecast_value": 148.06,
+            "confidence_score": 0.78,
+            "trend_tag": "flat",
+            "risk_indicator": "unknown",
+            "narrative": "Sustainable Sunscreen forecasted sales are in line with recent performance. No significant changes to inventory management needed.",
+            "forecast_months": 2
+        }
+    ],
+    "summary": "\n        Forecast Summary:\n        - Analyzed 10 products for 2 months ahead\n        - 0 products show rising trends\n        - 1 products show declining trends\n        - 0 products show volatile patterns\n        - 19 products show stable/flat trends\n        - 0 products at risk of stockout\n        - 1 products at risk of excess inventory\n\n        Key actions to consider:\n        - Update inventory levels for products with stockout risks\n        - Review marketing for declining products\n        - Prepare visual assets for seasonal trending products\n        - Monitor volatile products more frequently\n        ",
+    "timestamp": "2025-06-16T13:54:06.005868"
+}

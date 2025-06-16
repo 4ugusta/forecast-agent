@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+crewai
+fastapi
+uvicorn
+pydantic
+statsmodels
+matplotlib
+seaborn
+openai>=1.0.0
+python-dotenv
+python-multipart
