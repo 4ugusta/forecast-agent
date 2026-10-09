@@ -35,7 +35,7 @@ This system uses a multi-agent approach with:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/4ugusta/forecast-agent.git
 cd forecast-agent
 
 # Set up the environment (requires Python 3.12+)
@@ -144,3 +144,7 @@ This forecast agent is designed to integrate with Fegmo's agentic PIM and DAM pl
 2. Scheduling seasonal assets for trending products
 3. Alerting the Readiness Agent about demand changes
 4. Providing insights for inventory and marketing decisions
+
+---
+
+Built by [Augusta Bhardwaj](https://4ugusta.dev). More projects and writing at [4ugusta.dev](https://4ugusta.dev).
