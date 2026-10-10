@@ -17,6 +17,10 @@ def load_forecast_results(json_data: Dict[str, Any]) -> pd.DataFrame:
 
 def plot_forecasts(df: pd.DataFrame, sample_data_path: str):
     """Create visualizations of the forecast results."""
+    # One row per product, its nearest month: a multi-month run has a row per month, which drew
+    # "Top 5 Products" as three bars and counted twice as many trend tags as products
+    df = df.sort_values("forecast_months").drop_duplicates("product_id")
+
     # Load sample data to get historical values
     sample_df = pd.read_csv(sample_data_path)
     

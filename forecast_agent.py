@@ -278,12 +278,18 @@ class ForecastAgentSystem:
         """Generate a summary of all forecasts."""
         total_products = len(set(f.product_id for f in forecasts))
         max_forecast_months = max([f.forecast_months for f in forecasts]) if forecasts else 0
-        rising_products = len([f for f in forecasts if f.trend_tag == "rising"])
-        declining_products = len([f for f in forecasts if f.trend_tag == "declining"])
-        volatile_products = len([f for f in forecasts if f.trend_tag == "volatile"])
-        stable_products = len([f for f in forecasts if f.trend_tag == "stable" or f.trend_tag == "flat"])
-        stockout_risks = len([f for f in forecasts if "stockout" in f.risk_indicator])
-        excess_inventory_risks = len([f for f in forecasts if "excess inventory" in f.risk_indicator])
+        # Count each product once, at its nearest month. Counting every month's row
+        # reported "10 products" beside "19 stable" for a two-month run.
+        nearest = {}
+        for f in sorted(forecasts, key=lambda f: f.forecast_months):
+            nearest.setdefault(f.product_id, f)
+        per_product = list(nearest.values())
+        rising_products = len([f for f in per_product if f.trend_tag == "rising"])
+        declining_products = len([f for f in per_product if f.trend_tag == "declining"])
+        volatile_products = len([f for f in per_product if f.trend_tag == "volatile"])
+        stable_products = len([f for f in per_product if f.trend_tag == "stable" or f.trend_tag == "flat"])
+        stockout_risks = len([f for f in per_product if "stockout" in f.risk_indicator])
+        excess_inventory_risks = len([f for f in per_product if "excess inventory" in f.risk_indicator])
         
         summary = f"""
         Forecast Summary:
